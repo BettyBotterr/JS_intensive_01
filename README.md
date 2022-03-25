@@ -16,7 +16,7 @@
    3.6 [Условные операторы ](#Условные-операторы ) \
    3.7 [Логические операторы](#Логические-операторы) \
    3.8 [Циклы](#Циклы) \
-   3.9 [Всплытие](#Всплытие) \
+   3.9 [Функции](#Функции) \
 <br>
 
 ## Chapter I
@@ -346,5 +346,43 @@ for (let key of obj) {
 Управление циклом:
 `-` Оператор break - завершает выполнение текущего цикла.
 `-` Оператор continue - останавливает текущую итерацию цикла и запускает новую итерацию. 
+<br>
+
+### Функции
+
+<br>
+
+Функция в JavaScript специальный тип объектов, позволяющий формализовать средствами языка определённую логику поведения и обработки данных.
+
+Как можно объявить функцию в JavaScript:
+`-` Function constructor:
+```
+new Function ([arg1[, arg2[, ...argN]],] functionBody)
+```
+`-` Function declaration:
+```
+function name([param[, param,[..., param]]]) {
+   [statements]
+}
+```
+`-` Function expression:
+```
+const myFunc = function [name]([param1[, param2[, ..., paramN]]]) {
+   statements
+}
+```
+`-` Arrow function:
+```
+(param1, param2, …, paramN) => { statements } 
+(param1, param2, …, paramN) => expression
+```
+`-` Object Method:
+```
+const obj = {
+  property( parameters… ) {},
+  [property]( parameters… ) {},
+};
+```
+
 <br>
 
