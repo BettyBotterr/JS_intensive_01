@@ -19,7 +19,7 @@
    4.2 [Условные операторы ](#Условные-операторы ) \
    4.3 [Логические операторы](#Логические-операторы) \
    4.4 [Циклы](#Циклы) \
-   4.5 [Методы массивов, строк и объектов](#Методы-массивов,-строк-и-объектов)
+   4.5 [Методы массивов, строк и объектов](#Методы-массивов, строк-и-объектов)
 <br>
 
 ## Chapter I
@@ -440,10 +440,12 @@ for (let key of obj) {
 
 <br>
 Пример вызова метода:
+
 ```
 const string = 'STRING'
 console.log(string.toLowerCase()); //string
 ```
+
 Подробнее о разных методах, можно почитать в источниках ниже
 
 Методы массивов:https://habr.com/ru/company/plarium/blog/483958
@@ -451,4 +453,5 @@ console.log(string.toLowerCase()); //string
 Методы строк: https://html5css.ru/js/js_string_methods.php
 <br>
 Методы объектов:https://www.8host.com/blog/metody-obektov-v-javascript
+
 <br>
