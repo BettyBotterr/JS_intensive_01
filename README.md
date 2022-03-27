@@ -1,6 +1,5 @@
-# JavaScript (Интенсив).
+#  Lesson 1.
 
-`Работа с языком JavaScript + HTML + CSS + React.js`
 
 ## Contents
 
